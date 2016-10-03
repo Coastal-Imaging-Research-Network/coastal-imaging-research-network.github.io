@@ -1,4 +1,4 @@
-# Coastal-Imaging-Research-Network.github.io
+# Coastal-Imaging-Research-Network webpage
 GitHub page for the Coastal Imaging Research Network
 
 web address: https://coastal-imaging-research-network.github.io/
