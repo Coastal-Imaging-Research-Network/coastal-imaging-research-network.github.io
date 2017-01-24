@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ v2.0 | 20110126
+ License: none (public domain)
+*/
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,100,900);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+html {
+  background: url(../assets/LandlabClarence.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  height: 100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch; }
+
+header .white {
+  height: 24vw;
+  padding: 1.6vw; }
+
+.tag {
+  font-size: 2.1vw;
+  position: relative;
+  top: 12.6vw;
+  margin-left: 20.5vw; }
+
+img {
+  float: left; }
+
+img:after {
+  clear: both; }
+
+.logo {
+  width: 20vw; }
+
+nav {
+  position: relative;
+  top: 13.3vw;
+  line-height: 2.9vw; }
+  nav div {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 0.09vw; }
+    nav div a {
+      font-size: 1.32vw;
+      margin: 1.3vw; }
+
+@media screen and (max-width: 850px) {
+  nav {
+    top: -4vw;
+    line-height: 4.5vw; }
+    nav div {
+      margin: .32vw; }
+      nav div a {
+        font-size: 2vw; }
+  header .white {
+    height: 24vw;
+    padding-top: .8vw; }
+  .tag {
+    font-size: 3vw; } }
+
+.background {
+  margin-top: 10vmin;
+  background-color: rgba(246, 247, 196, 0.5);
+  padding: 1vw 6vw; }
+
+.white {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 3.5vw; }
+
+@media screen and (max-width: 850px) {
+  .background {
+    margin-top: 5vmin;
+    padding: .8vw; } }
+
+html {
+  font-size: 1.2em; }
+
+code {
+  font-family: monospace;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0.3em 0.7em; }
+
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  line-height: 1.45;
+  color: #32341E; }
+
+a {
+  color: #5991c5;
+  text-decoration: none; }
+
+p {
+  margin-bottom: 1.3em; }
+
+h1, h2, h3, h4 {
+  margin-bottom: 0.5em;
+  font-weight: 400;
+  line-height: 1.2; }
+
+h1 {
+  font-size: 2.074em; }
+
+h2 {
+  font-size: 1.728em; }
+
+h3 {
+  font-size: 1.44em;
+  line-height: 2; }
+
+h4 {
+  font-size: 1.2em; }
+
+small, .font_small {
+  font-size: 0.833em; }
+
+strong {
+  font-weight: 500; }
+
+button {
+  border: none;
+  border-radius: 4px; }
+
+.ng-enter {
+  transition: 0.75s;
+  opacity: 0; }
+
+.ng-enter-active {
+  opacity: 1; }
+
+.ng-leave {
+  transition: 0.75s;
+  opacity: 1; }
+
+.ng-leave-active {
+  opacity: 0; }
+
+.ng-enter-stagger {
+  transition-delay: 0.1s; }
+
+.error {
+  border-color: #FA787E; }
+
+input.ng-invalid.ng-touched {
+  background-color: #FA787E; }

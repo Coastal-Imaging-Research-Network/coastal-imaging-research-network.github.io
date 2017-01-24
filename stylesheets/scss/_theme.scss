@@ -1,0 +1,18 @@
+.background {
+  margin-top: 10vmin;
+  background-color: $gold;
+  padding: 1vw 6vw;
+}
+
+.white {
+  position: relative;
+  background-color: $white;
+  padding: 3.5vw;
+}
+
+@media screen and (max-width: $break-large) {
+  .background {
+    margin-top: 5vmin;
+    padding: .8vw;
+  }
+}
