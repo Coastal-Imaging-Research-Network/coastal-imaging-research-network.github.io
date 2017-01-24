@@ -1,1 +1,1 @@
-var app = angular.module("landlab", ['ngRoute']);
+var app = angular.module("cirn", ['ngRoute']);
