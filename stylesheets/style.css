@@ -50,7 +50,7 @@ table {
   box-sizing: border-box; }
 
 html {
-  background: url(../assets/LandlabClarence.jpg) no-repeat center center fixed;
+  background: url(../assets/CIRNbkgrd.JPG) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -110,7 +110,7 @@ nav {
 
 .background {
   margin-top: 10vmin;
-  background-color: rgba(246, 247, 196, 0.5);
+  background-color: rgba(153, 204, 255, 0.5);
   padding: 1vw 6vw; }
 
 .white {

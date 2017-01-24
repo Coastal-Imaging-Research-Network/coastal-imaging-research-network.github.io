@@ -1,182 +1,40 @@
 <div class="background">
   <div class="white">
-    <a name="about"></a><h2>What is <span itemprop="name">Landlab</span>?</h2>
+    <a name="about"></a><h1>What is it you would like to do?</h1>
     <p>
-      Landlab is a Python-based modeling environment that allows scientists and students to build numerical
-      landscape models. Designed for disciplines that quantify earth surface dynamics such as
-      geomorphology, hydrology, glaciology, and stratigraphy, it can also
-      be used in related fields.
+    <li><b>I have a question or problem with the code that I'd like answered </b></li><br>
+        <p> Access the CIRN Forum <a href="https://github.com/Coastal-Imaging-Research-Network/Forum-Wiki/issues">HERE</a> </p>
+    <li><b>I'd like to learn about what CIRN is and how the algorithms work </b></li><br>
+        <p> Access the CIRN Wiki <a href="https://github.com/Coastal-Imaging-Research-Network/Forum-Wiki/wiki">HERE</a> </p>
+    <li><b>I would like to process my UAV image data </b></li><br>
+        <p> Take a look at the UAV <a href="https://github.com/Coastal-Imaging-Research-Network/UAV-Processing-Codes">Toolbox</a>
+            and <a href="https://github.com/Coastal-Imaging-Research-Network/UAV-Processing-Codes/wiki/UAV-Processing-Manual">Manual</a> </p>
+    <li><b>I would like to run cBathy on my image data </b></li><br>
+        <p> Take a look at the cBathy <a href="https://github.com/Coastal-Imaging-Research-Network/cBathy-Toolbox">Toolbox</a>
+            and <a href="https://github.com/Coastal-Imaging-Research-Network/cBathy-toolbox/wiki/cBathy-User-Manual">Manual</a> </p>
+    <li><b>I would like to interact socially with other CIRN members </b></li><br>
+        <p> Join our LinkedIn group <a href="https://www.linkedin.com/groups/12010767">HERE!</a></p>
+    <li><b>I am a developer and want to add my cool feature to the code  </b></li><br>
+        <p> Learn how to clone and edit one of the CIRN repositories <a href="https://github.com/Coastal-Imaging-Research-Network/Forum-Wiki/wiki/CIRN-repository-help">HERE</a></p>  </p>
+
     </p>
-    <p>
-      Landlab provides components to compute flows (such as water, sediment, glacial ice, volcanic
-      material, or landslide debris) across a gridded terrain. With its robust, reusable components, Landlab allows
-      scientists to quickly build landscape model experiments and compute mass balance across scales.
-    </p>
+
   </div>
 </div>
-<div class="background">
-  <div class="white">
-    <h2>Examples</h2>
-    <p>
-      The following models can easily be built with Landlab's current capabilities:
-      <li>
-        A <a href="http://nbviewer.ipython.org/github/landlab/tutorials/blob/master/fault_scarp/landlab-fault-scarp.ipynb" target="_blank">landscape evolution model</a> using linear diffusion and the stream-power model
-      </li>
-      <li>
-        A model that explores the <a href="http://nbviewer.ipython.org/github/landlab/tutorials/blob/master/flexure/lots_of_loads.ipynb" target="_blank">flexural response</a> to the growth and recession of glaciers
-      </li>
-      <li>
-        An <a href="https://raw.githubusercontent.com/wiki/landlab/landlab/images/Sai_AGU_2015.jpg" target="_blank">ecohydrology model</a> in which vegetation on two sides of a valley grows and dies in response to stochastic storms and solar forcing throughout the year
-      </li>
-      <li>
-        A model that <a href="https://www.youtube.com/watch?v=4Ltr6HRUrQI" target="_blank">routes hydrographs across a watershed</a> based on rainfall inputs
-      </li>
 
-    </p>
-  </div>
-</div>
-<div class="background">
-  <div class="white">
-    <a name="install"></a><h2>Installing Landlab</h2>
-    <p>
-      To install Landlab, you will need a Python distribution that includes
-          <li>Python 2.6+ or 3.3+</li>
-          <li>NumPy 1.9 or greater</li>
-          <li>SciPy 0.14 or greater</li>
-          <li>netCDF4 (will run without, but recommended)</li>
-          <li>Cython (only required if building Landlab from source code)</li>
-          <li>an up-to-date Python package manager (such as PyPI, aka "pip")</li>
-          <li>a compiler that Python can recognise (through the Xcode app on a mac)</li>
-    </p>
-
-    <p> To fulfill these requirements we recommend a preassembled scientific Python
-    distribution such as <a href="https://www.continuum.io/downloads">Continuum
-    IO’s Anaconda.</a> Follow this link for instructions on <a href="https://github.com/landlab/landlab/wiki/Installing-Python">installing your Python distribution.</a></p>
-    <p>
-      To ensure your Python distribution is complete and up to date, especially <code>setuptools,</code> open a terminal (or, on a PC, the command prompt—make sure it is a true DOS "cmd" prompt, not, e.g., Cygwin) and type the following.
-    </p>
-    <p>
-      <code>
-        > conda update --all
-      </code>
-    </p>
-    <p>
-      <code>
-        > conda update setuptools
-      </code>
-    </p>
-    <p>
-      <code>> pip install --upgrade pip</code>
-    </p>
-
-    <p>
-      Then install <code>netCDF4</code>:
-    </p>
-
-    <p>
-      <code>
-        > conda install netCDF4
-      </code>
-    </p>
-
-    <p>
-      Once your Python distribution is complete and up to date, install Landlab:
-    </p>
-    <p>
-      <code>> conda install landlab -c landlab</code>
-    </p>
-    <p>
-      Remember, on a PC, do this in an Anaconda session or in a Command Prompt, NOT in Cygwin, or you will have a bad day.
-    </p>
-
-   <h3>Installing Landlab
-   Using Anaconda—more detailed instructions</h3>
-   <p>
-     If you would like more <a href="https://github.com/landlab/landlab/wiki/Installing-Landlab-with-Anaconda">detailed instructions</a> for installing Landlab with Anaconda's Python distribution,
-     follow <a href="https://github.com/landlab/landlab/wiki/Installing-Landlab-with-Anaconda">this link</a>.
-   </p>
-
-    <h3>
-      Developer Installation—installing from Landlab source code
-    </h3>
-    <p>
-      For users who have gotten a feel for Landlab and want to
-      keep up with the absolute latest Landlab developments and contribute code back to the Landlab repository,
-      <a href="https://github.com/landlab/landlab/wiki/Installing-Landlab-from-source-code-(%22developer-install%22)">follow these directions</a>.
-    </p>
-  </div>
-</div>
 
 <div class="background">
   <div class="white">
-    <a name="update"></a><h2>Updating Landlab</h2>
+    <h2>Please excuse us...</h2>
+    <p>
+      This site is a work in progress. Please let us know of any issues you find by creating an issue <a href="https://github.com/Coastal-Imaging-Research-Network/coastal-imaging-research-network.github.io/issues">HERE</a>. Thanks for your patience!!
+<br>
 
-    <p>
-      As Landlab is still relatively early in its development
-      cycle, the code will update fairly often with frequent new releases.
-      To take advantage of new features and new library
-      additions, we recommend you update Landlab regularly.
-    </p>
+~The CIRN Management Team
 
-    <p>
-      Whenever you update Landlab, we strongly recommend you <strong>also update your
-      Python package!</strong> For Anaconda, use the conda package manager from a command
-      prompt.
-      [Remember, on a PC, do all this in a Command Prompt window or through Anaconda; do not use Cygwin.]
-      <p>
-        <code>
-          > conda update --all
-        </code>
-      </p>
-    </p>
-    <p>
-      From Canopy, use the GUI to update all the available new packages listed.
-    </p>
 
-    <p>
-      If you installed Landlab
-      through the instructions on <a href="https://github.com/landlab/landlab/wiki/Installing-Landlab-with-Anaconda">this page</a>, simply use <code>pip</code>
-      to update, like so:
     </p>
-    <p>
-      <code>
-        > pip uninstall landlab
-      </code>
-    </p>
-    <p>
-      <code>
-        > pip install landlab
-      </code>
-    </p>
-
-    <p>
-      <strong>However, if you are running an Anaconda distribution, we now recommend you uninstall with pip
-      and replace with a conda install. Simply do this:
-    </p>
-    <p>
-      <code>
-        > pip uninstall landlab
-      </code>
-    </p>
-    <p>
-      <code>
-        > conda install landlab -c landlab
-      </code>
-    </p>
-
-    <p>
-      Once you've done this, you will be able to update landlab along with the rest of your conda packages:
-    </p>
-
-    <p>
-      <code>
-        > conda update --all -c landlab
-      </code>
-    </p>
-
-    <p>
-      If you have <a href="https://github.com/landlab/landlab/wiki/Updating-Landlab" target="_blank">errors during install, click here</a> for guidance on how to resolve them.
-    </p>
-
   </div>
 </div>
+
+
