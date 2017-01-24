@@ -1,0 +1,83 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  // width: 100vw;
+  background: url(../assets/LandlabClarence.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  height:100%;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+header {
+  .white {
+    height: 24vw;
+    padding: 1.6vw;
+  }
+}
+
+.tag {
+  font-size: 2.1vw;
+  position: relative;
+  top: 12.6vw;
+  margin-left: 20.5vw;
+}
+
+img {
+  float: left;
+}
+
+img:after {
+  clear: both;
+}
+
+.logo {
+  width: 20vw;
+}
+
+nav {
+  position: relative;
+  top: 13.3vw;
+  line-height: 2.9vw;
+  div {
+    display: inline-block;
+    background-color: $white;
+    margin: 0 .09vw;
+    a {
+      font-size: 1.32vw;
+      margin: 1.3vw;
+    }
+  }
+}
+
+@media screen and (max-width: $break-large) {
+  nav {
+    top: -4vw;
+    line-height: 4.5vw;
+    div {
+      margin: .32vw;
+      a {
+        font-size: 2vw;
+      }
+    }
+  }
+  header {
+    .white {
+      height: 24vw;
+      padding-top: .8vw;
+    }
+  }
+  .tag {
+    font-size: 3vw;
+  }
+}

@@ -1,55 +1,45 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Coastal Imaging Research Network (CIRN) by Coastal-Imaging-Research-Network</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Coastal Imaging Research Network (CIRN)</h1>
-      <h2 class="project-tagline">Webpage for the Coastal Imaging Research Network</h2>
-    </section>
+<!DOCTYPE html> <html lang="en" ng-app="cirn"> <head> <meta charset="UTF-8">
+<title>CIRN | Coastal Imaging Research Network </title>
+  <meta property="og:url" content="https://github.com/Coastal-Imaging-Research-Network/coastal-imaging-research-network.github.io"/>
+  <meta property="og:title" content="CIRN | Coastal Imaging Research Network"/>
+  <meta property="og:image" content="https://github.com/Coastal-Imaging-Research-Network/coastal-imaging-research-network.github.io/blob/master/assets/CIRN_logo.png"/>
+  <meta name="description" content="The Coastal Imaging Research Network (CIRN) is for those interested in coastal imaging. Much of the original code was developed in the Coastal Imaging Lab at Oregon State University, but the content will expand with participation of a growing community of users and developers. If you are new to CIRN, read the about CIRN page. ">
+    <meta property="og:description"
+          content="The official website of CIRN"/>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+  <script src="scripts/angular/angular.js"></script>
+  <script src="scripts/angular/angular-route.js"></script>
+</head>
+<body>
+  <header class="background">
+    <div class="white">
+      <img itemprop="image" class="logo" src="./assets/CIRN_logo.jpg" alt="CIRN logo">
+      <div class="htext">
+        <h2 class="tag">CIRN | Coastal Imaging Research Network</h2>
+        <nav>
+          <!-- <div><a href="https://github.com/landlab/landlab/wiki/Examples">Examples</a></div> -->
+          <!--div><a href="https://landlab.github.io/#/#install">Install</a></div-->
+          <!--div><a href="https://github.com/landlab/landlab/wiki/User-Guide">User Guide</a></div-->
+          <div><a href="https://github.com/Coastal-Imaging-Research-Network/UAV-Processing-Toolbox/wiki/UAV-Processing-Manual">UAV Processing Manual</a></div>
+          <div><a href="https://github.com/Coastal-Imaging-Research-Network/cBathy-toolbox/wiki/cBathy-User-Manual">cBathy Manual</a></div>
+          <div><a href="https://github.com/Coastal-Imaging-Research-Network/Forum-Wiki/issues">Forum</a></div>
+          <div><a href="https://github.com/Coastal-Imaging-Research-Network/Forum-Wiki/wiki">Wiki</a></div>
+          <div><a href="https://www.linkedin.com/groups/12010767">LinkedIn</a></div>
+        </nav>
+      </div>
+    </div>
+  </header>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-the-coastal-imaging-research-network-cirn-website" class="anchor" href="#welcome-to-the-coastal-imaging-research-network-cirn-website" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to The Coastal Imaging Research Network (CIRN) Website!</h3>
+  <div ng-view></div>
+  <meta itemprop="url" content="https://github.com/Coastal-Imaging-Research-Network/coastal-imaging-research-network.github.io">
+<script src="scripts/app.js"></script>
+<script src="scripts/controllers.js"></script>
+<script src="scripts/routes.js"></script>
+<script src="scripts/services.js"></script>
+<script src="scripts/filters.js"></script>
+<script src="scripts/directives.js"></script>
 
-<p>This webpage is a work in progress! Please excuse our mess!</p>
-      
-<h2> What is your goal in coming here? </h2> 
- 
-<h3> I have a question or problem with the code that I'd like answered <h3>
-  <p>Access the CIRN forum <a href="https://github.com/Coastal-Imaging-Research-Network/Forum-Wiki/issues">HERE</a></p>
-
-<h3> I'd like to learn about what CIRN is and how the algorithms work <h3>
-  <p>Access the CIRN wiki <a href="https://github.com/Coastal-Imaging-Research-Network/Forum-Wiki/wiki">HERE</a></p>
- 
-<h3> I would like to process my UAV image data <h3>  
-<p>Access the UAV Toolbox <a href="https://github.com/Coastal-Imaging-Research-Network/UAV-Processing-Codes">HERE</a></p>    
-<p>Access the UAV Toolbox Manual <a href="https://github.com/Coastal-Imaging-Research-Network/UAV-Processing-Codes/wiki/UAV-Processing-Manual">HERE</a></p>
-
-<h3> I would like to run cBathy on my image data <h3>
-<p>Access the cBathy Toolbox <a href="https://github.com/Coastal-Imaging-Research-Network/UAV-Processing-Codes">HERE</a></p>    
-<p>Access the cBathy Manual <a href="https://github.com/Coastal-Imaging-Research-Network/cBathy/wiki/cBathy-Manual">HERE</a></p>
-  
-<h3> I would like to interact socially with other CIRN members <h3>  
-<p>Access CIRN LinkedIn Group <a href="https://www.linkedin.com/groups/12010767">HERE</a></p>
-      
-<h3> I am a developer and want to add my cool feature to the code <h3>
-  <p> Learn how to clone and edit one of the CIRN repositories <a href="https://github.com/Coastal-Imaging-Research-Network/Forum-Wiki/wiki/CIRN-repository-help">HERE</a></p>      
-      
-      <footer class="site-footer">
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-
-    </section>
-
-  
-  </body>
+</body>
 </html>
