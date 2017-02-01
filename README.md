@@ -1,2 +1,2 @@
 # coastal-imaging-research-network.github.io
-Repository for CIRN's website https://coastal-imaging-research-network.github.io
+Link to CIRN's website https://coastal-imaging-research-network.github.io
