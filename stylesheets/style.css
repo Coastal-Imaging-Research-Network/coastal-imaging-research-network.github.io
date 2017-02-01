@@ -80,11 +80,11 @@ img:after {
   clear: both; }
 
 .logo {
-  width: 20vw; }
+  width: 19.5vw; }
 
 nav {
   position: relative;
-  top: 13.3vw;
+  top: 13.0vw;
   line-height: 2.9vw; }
   nav div {
     display: inline-block;
@@ -92,7 +92,7 @@ nav {
     margin: 0 0.2vw; }
     nav div a {
       font-size: 1.32vw;
-      margin: 1.3vw; }
+      margin: 2.3vw; }
 
 @media screen and (max-width: 850px) {
   nav {
